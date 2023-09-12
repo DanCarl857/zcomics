@@ -36,6 +36,8 @@ const NativeUiText = ({children, textType, style, textColor}: Props) => {
     : style;
   return (
     <RNText
+      adjustsFontSizeToFit
+      numberOfLines={2}
       style={[textStyle, {...passedStyles}, textColor && {color: textColor}]}>
       {children}
     </RNText>

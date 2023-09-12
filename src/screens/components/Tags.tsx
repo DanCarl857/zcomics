@@ -5,29 +5,30 @@ import {NativeUiText} from '../../components';
 import * as THEME from '../../themes/theme';
 
 type SectionHeaderProps = {
-  title: React.ReactNode;
+  text: string;
 };
 
 type Props = SectionHeaderProps;
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%',
-    marginTop: 20,
+    backgroundColor: THEME.colors.red,
+    paddingHorizontal: 10,
+    paddingVertical: 3,
+    borderRadius: 5,
   },
   text: {
     color: THEME.colors.white,
-    fontWeight: '500',
-    fontSize: THEME.sizes.h3,
+    fontSize: THEME.sizes.small,
   },
 });
 
-const SectionHeader = ({title}: Props) => {
+const Tags = ({text}: Props) => {
   return (
     <View style={styles.container}>
-      <NativeUiText style={styles.text}>{title}</NativeUiText>
+      <NativeUiText style={styles.text}>{text}</NativeUiText>
     </View>
   );
 };
 
-export default SectionHeader;
+export default Tags;

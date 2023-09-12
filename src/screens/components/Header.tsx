@@ -11,6 +11,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0)',
+    paddingHorizontal: 10,
+    opacity: 1,
   },
   logoImg: {
     width: 40,
