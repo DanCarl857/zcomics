@@ -73,8 +73,10 @@ const Card = ({
           </View>
         )}
       </View>
-      <NativeUiText textColor={THEME.colors.textGrey}>{cardLabel}</NativeUiText>
-      <NativeUiText textColor={THEME.colors.textGrey}>
+      <NativeUiText textType="bold" textColor={THEME.colors.textGrey}>
+        {cardLabel}
+      </NativeUiText>
+      <NativeUiText textType="bold" textColor={THEME.colors.textGrey}>
         {subCardLabel}
       </NativeUiText>
     </View>

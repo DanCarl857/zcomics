@@ -1,27 +1,30 @@
 import React from 'react';
 import {View, StyleSheet, Image} from 'react-native';
 
+import * as THEME from '../../../themes/theme';
+
 const styles = StyleSheet.create({
   header: {
     position: 'absolute',
-    top: 0,
+    top: 2,
     left: 0,
     width: '100%',
     marginTop: 40,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0)',
-    paddingHorizontal: 10,
+    backgroundColor: THEME.colors.lightBlack,
+    padding: 10,
+    zIndex: 999,
     opacity: 1,
   },
   logoImg: {
-    width: 40,
-    height: 60,
+    width: 30,
+    height: 50,
   },
   profileImg: {
-    width: 50,
-    height: 50,
+    width: 40,
+    height: 40,
     borderRadius: 30,
   },
 });
