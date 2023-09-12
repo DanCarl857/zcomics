@@ -2,11 +2,11 @@ import React from 'react';
 import {SafeAreaView, StyleSheet, ScrollView} from 'react-native';
 
 import * as THEME from '../../../themes/theme';
-import Header from '../../components/Header';
-import SectionHeader from '../../components/SectionHeader';
-import Card from '../../components/Card';
-import ExclusiveCard from '../../components/ExclusiveCard';
-import Banner from '../../components/Banner';
+import Header from '../components/Header';
+import SectionHeader from '../components/SectionHeader';
+import Card from '../components/Card';
+import ExclusiveCard from '../components/ExclusiveCard';
+import Banner from '../components/Banner';
 
 const styles = StyleSheet.create({
   container: {

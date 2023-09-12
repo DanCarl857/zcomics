@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import {NativeUiText} from '../../components';
+import {NativeUiText} from '../../../components';
 
-import * as THEME from '../../themes/theme';
+import * as THEME from '../../../themes/theme';
 
 type SectionHeaderProps = {
   text: string;
