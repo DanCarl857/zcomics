@@ -7,6 +7,7 @@ import SectionHeader from '../components/SectionHeader';
 import Card from '../components/Card';
 import ExclusiveCard from '../components/ExclusiveCard';
 import Banner from '../components/Banner';
+import SeeAll from '../components/SeeAll';
 
 const styles = StyleSheet.create({
   container: {
@@ -39,6 +40,7 @@ const Home = () => {
               />
             );
           })}
+          <SeeAll />
         </ScrollView>
         <SectionHeader title={'Romance'} />
         <ScrollView horizontal>
@@ -86,6 +88,7 @@ const Home = () => {
             cardLabel={'Fantastic Tumb...'}
             subCardLabel={'Issue 3'}
           />
+          <SeeAll />
         </ScrollView>
         <SectionHeader title={'Zebra Exclusive'} />
         <ScrollView horizontal>
@@ -141,6 +144,7 @@ const Home = () => {
             bgColor={THEME.colors.lightGrey}
             cardLabel={'Alice and The Chapters of Winterfell'}
           />
+          <SeeAll />
         </ScrollView>
         <SectionHeader title={'Top Series'} />
       </ScrollView>

@@ -29,9 +29,12 @@ const styles = StyleSheet.create({
 const Header = () => {
   return (
     <View style={styles.header}>
-      <Image source={require('../../assets/logo.png')} style={styles.logoImg} />
       <Image
-        source={require('../../assets/person.jpeg')}
+        source={require('../../../assets/logo.png')}
+        style={styles.logoImg}
+      />
+      <Image
+        source={require('../../../assets/person.jpeg')}
         style={styles.profileImg}
       />
     </View>

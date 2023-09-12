@@ -44,7 +44,7 @@ const AppNavigator = () => {
   return (
     <View style={styles.container}>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        barStyle={isDarkMode ? 'dark-content' : 'light-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <NavigationContainer independent>
