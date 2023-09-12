@@ -10,9 +10,9 @@ const colors = {
 };
 
 const sizes = {
-  h1: 48,
-  h2: 34,
-  h3: 28,
+  h1: 40,
+  h2: 30,
+  h3: 25,
   h4: 15,
   paragraph: 15,
   caption: 13,
@@ -24,41 +24,4 @@ const sizes = {
   small: 12,
 };
 
-const fonts = {
-  extraLarge: {
-    fontSize: 36,
-  },
-  mdLarge: {
-    fontSize: 24,
-  },
-
-  large: {
-    fontSize: 18,
-  },
-  medium: {
-    fontSize: 17,
-  },
-  small: {
-    fontSize: 16,
-  },
-  extraSmall: {
-    fontSize: 14,
-  },
-  extraLight: {
-    fontWeight: '100',
-  },
-  light: {
-    fontWeight: '300',
-  },
-  regular: {
-    fontWeight: '500',
-  },
-  bold: {
-    fontWeight: '700',
-  },
-  extraBold: {
-    fontWeight: '900',
-  },
-};
-
-export {colors, fonts, sizes};
+export {colors, sizes};
