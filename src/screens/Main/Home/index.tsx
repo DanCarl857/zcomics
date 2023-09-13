@@ -9,6 +9,7 @@ import ExclusiveCard from '../components/ExclusiveCard';
 import Ad from '../components/Ad';
 import Banner from '../components/Banner';
 import SeeAll from '../components/SeeAll';
+import Grid from '../components/Grid';
 
 const styles = StyleSheet.create({
   container: {
@@ -152,6 +153,10 @@ const Home = () => {
             <SeeAll />
           </ScrollView>
           <SectionHeader title={'Top Series'} />
+          <ScrollView showsHorizontalScrollIndicator={false} horizontal>
+            <Grid title="Action" />
+            <Grid title="Romance" />
+          </ScrollView>
         </View>
       </ScrollView>
     </SafeAreaView>
